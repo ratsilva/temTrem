@@ -1,0 +1,32 @@
+{
+  "name": "temTrem",
+  "version": "1.0.0",
+  "description": "Slackbot for automations",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ratsilva/temTrem.git"
+  },
+  "keywords": [
+    "slack",
+    "bot"
+  ],
+  "author": "Ricardo Silva",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ratsilva/temTrem/issues"
+  },
+  "homepage": "https://github.com/ratsilva/temTrem#readme",
+  "engines": {
+    "node": "5.1.1"
+  },
+  "dependencies": {
+    "botkit": "0.2.2",
+    "botkit-storage-mongo": "^1.0.2",
+    "mongodb": "^1.4.39"
+  }
+}
